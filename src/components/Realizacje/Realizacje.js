@@ -26,8 +26,8 @@ const Realizacje = () => {
           </ul>
         </div>
       </div>
-      <Link to="/realizacje">
-        <button>Zobacz oferte</button>
+      <Link to="/kontakt">
+        <button>Kontakt</button>
       </Link>
     </div>
   );
