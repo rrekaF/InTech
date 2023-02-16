@@ -1,0 +1,35 @@
+.realizacje-container {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  background: linear-gradient(rgba(27, 38, 59, 0.6), rgba(27, 38, 59, 1)), url("../../img/stock6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(224, 225, 221, 1);
+  font-family: "Source Sans Pro", sans-serif;
+}
+.realizacje-container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.realizacje-container-left ul {
+  max-width: 30%;
+}
+.realizacje-container button {
+  background-color: rgba(224, 225, 221, 0);
+  border: 2px solid rgba(224, 225, 221, 1);
+  color: rgba(224, 225, 221, 1);
+}
+.realizacje-container button:hover {
+  background-color: rgba(224, 225, 221, 1);
+  color: rgba(27, 38, 59, 1);
+  transition: 0.5s;
+}

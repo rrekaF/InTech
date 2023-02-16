@@ -1,0 +1,20 @@
+.home-container {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 50vh;
+  padding-bottom: 10vh;
+
+  background: linear-gradient(rgba(27, 38, 59, 0.3), rgba(27, 38, 59, 1)), url("../../img/stock5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+	align-items: center;
+
+  color: rgba(224, 225, 221);
+  font-size: 4vh;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+}

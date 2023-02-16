@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  /* height: 80vh;
+  width: 100vw; */
+  font-size: 1.5rem;
+}
+.error-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+h4 {
+  text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 3vh;
+  font-family: "Source Sans Pro", sans-serif;
+
+  background-color: rgb(224, 225, 221);
+
+  min-height: 5vh;
+  max-width: 120vw;
+}
+.container-header a {
+  text-decoration: none;
+  color: rgb(27, 38, 59);
+}
+.container-header a:hover {
+  text-decoration: underline 3px solid rgb(119, 141, 169);
+}
+.container-header-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  min-width: 50vw;
+}
